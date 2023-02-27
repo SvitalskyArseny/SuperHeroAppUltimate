@@ -1,0 +1,20 @@
+﻿SuperHero
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\HP Laptop\Desktop\SuperHeroApp 3\SuperHero\obj\Release\net5.0-windows\
+SuperHero
+none
+false
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+C:\Users\HP Laptop\Desktop\SuperHeroApp 3\SuperHero\App.xaml
+71758059391
+
+18258069019
+228-99982000
+Views\AddCustomHeroWindow.xaml;Views\AuthorizationWindow.xaml;Views\CustomHeroCreationWindow.xaml;Views\CustomHeroesWindow.xaml;Views\FavouritesWindow.xaml;Views\MainWindow.xaml;Views\PublicPlatformWindow.xaml;
+
+False
+
