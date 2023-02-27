@@ -113,6 +113,7 @@ namespace SuperHero.ViewModels
         private void DeleteCustomHeroMethod()
         {
             var delResult = StandartVM.customsService.DeleteCustomHeroById(SelectedHero.Id);
+            StandartVM.publicPlatformService.DeleteHeroFromPlatform(SelectedHero.Id);
             if (delResult.Failure)
                 StandartVM.ShowNetworkException("Не удалось удалить героя");
             else

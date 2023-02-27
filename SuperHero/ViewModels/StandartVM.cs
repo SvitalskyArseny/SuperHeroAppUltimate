@@ -16,6 +16,7 @@ namespace SuperHero.ViewModels
         public static IFavouritesService favouritesService = container.Get<IFavouritesService>();
         public static ICustomHeroService customsService = container.Get<ICustomHeroService>();
         public static IAuthService authorizationService = container.Get<IAuthService>();
+        public static IPlatformService publicPlatformService = container.Get<IPlatformService>();
         public static IUserRepository localUserDatabase = container.Get<IUserRepository>();
 
         public static void ShowNetworkException(string text)
